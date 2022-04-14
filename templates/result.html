@@ -4,14 +4,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <title>QR Code Generator</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
     </head>
-    <body>
+    <body style="background-color:#f55c5c">
         <div style ="text-align:center">
             <h1>QR Code Generator</h1>
         </div>
-        <div>
-                <img src="{{url_for('static' ,filename='qrcode.jpg')}}" align="middle"></img>
-                
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col-md-10 col-sm-6 mx-auto">
+                    <img src="{{url_for('static' ,filename='qrcode.jpg')}}" align="middle"></img>
+                </div>
+            </div>
         </div>
     </body>
 </html>
