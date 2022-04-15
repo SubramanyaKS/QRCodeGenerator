@@ -11,30 +11,46 @@
     </head>
     <body style="background-color:#f55c5c">
         <div style ="text-align:center">
-            <h1>QR Code Generator</h1>
+            <h1>QR Code and Bar Code generator Generator</h1>
         </div>
-        <h5 style="text-align: center;">Create your free QR code</h5>
+        <h5 style="text-align: center;">Create your free QR code and Bar Code</h5>
         <section class ="main py-5" id="main">
             <div class="container-fluid my-5">
                 <div class="row">
                   <div class="col-md-10 col-sm-6 mx-auto">
-                     <form class="" action="/index" method="post">
-                        <p>Enter the URL if you want to get the QRCode</p><br>
-                        <div class="card">
-                            <div class="card-body">
-								<h5 class="card-title" style="text-align: center;"><b>Enter your URL:</b></h5>
-								<br>
+                        <form class="" action="/index" method="post">
+                            <p>Enter the URL if you want to get the QRCode</p><br>
+                            <div class="card">
+                                <div class="card-body">
+							        <h5 class="card-title" style="text-align: center;"><b>Enter your URL:</b></h5>
+								    <br>
                             
-                            <input type="text" id="url" name="url" size="75"><br><br>
-                            <div>
-                                <input type="submit" class="btn btn-primary" value="Submit"><br>
+                                    <input type="text" id="url" name="url" size="75"><br><br>
+                                    <div>
+                                        <input type="submit" class="btn btn-primary" value="Submit"><br>
+                                    </div>
+                                </div>
                             </div>
+                        
+                        </form>
+                    </div>
+                    <div class="col-md-10 col-sm-6 mx-auto">
+                        <form class="" action="/bar" method="post">
+                            <p>Enter the number if you want to get the BarCode</p><br>
+                            <div class="card">
+                                <div class="card-body">
+							        <h5 class="card-title" style="text-align: center;"><b>Enter your Number:</b></h5>
+								    <br>
+                            
+                                    <input type="text" id="num" name="num" size="50"><br><br>
+                                    <div>
+                                        <input type="submit" class="btn btn-primary" value="Submit"><br>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
                         
-                        
-                    </form>
-                    
+                        </form>
+                    </div>
                 </div>
             </div>
         <br></br>
