@@ -1,6 +1,9 @@
 # QR CODE GENERATOR
 This is a simple flask app which generate QRCode based on the input url given by the user.
 
+## Flask
+Flask is a web application framework written in Python. Armin Ronacher, who leads an international group of Python enthusiasts named Pocco, develops it. Flask is based on Werkzeug WSGI toolkit and Jinja2 template engine. Both are Pocco projects.
+
 ## Technology used
 * Python
 * Flask
