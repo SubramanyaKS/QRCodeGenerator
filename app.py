@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, send_file
 from flask import request,render_template
 import pyqrcode
 import qrcode.image.svg as qr
@@ -23,9 +23,15 @@ def qr():
         img.save('static\qrcode.jpg')
     return render_template("result.html",img_data=img)
 
+@app.route('/download')
+def downloadFile ():
+    #For windows you need to use drive name [ex: F:/Example.pdf]
+    path = "/Examples.pdf"
+    return send_file(path, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 """url = pyqrcode.create(s)
         #url.png('myqr.png', scale = 6)
