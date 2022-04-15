@@ -12,23 +12,26 @@
     <body style="background-color:#f55c5c">
         <div style ="text-align:center">
             <h1>QR Code Generator</h1>
-            <br></br>
         </div>
-        <div class="container-fluid my-5">
-            <p style="text-align:center;"> See below your QRCode</p>
-            <div class="row">
-                <div class="col-md-10 col-sm-6 ms-auto" style="text-align:center;">
-                <div class="image">
-                    <img src="{{url_for('static' ,filename='qrcode.jpg')}}" align="center"></img>
+        <h5 style="text-align: center;">Create your free QR code</h5>
+        <section class ="main py-5" id="main">
+            <div class="container-fluid my-5">
+                <p style="text-align:center;"> See below your QRCode</p>
+                <div class="row">
+                    <div class="col-md-10 col-sm-6 ms-auto" style="text-align:center;">
+                        <div class="image">
+                            <img src="{{url_for('static' ,filename='qrcode.jpg')}}" align="center"></img>
+                        </div>
+                        <br>
+                        <div>
+                            <a href="{{url_for('downloadFile')}}"><input type="submit" class="btn btn-primary" value="Download"></a> <br>
+                        </div>
+                    </div>
+                    
                 </div>
-                <br>
-                <div>
-               <a href="{{url_for('downloadFile')}}"><input type="submit" class="btn btn-primary" value="Download"></a> <br>
-                </div>
-                </div>
-                
             </div>
-        </div>
+        </section>
+        <h5  style="text-align: center;">Thank you for using our website have a nice day.</h5>
         <footer style="background-color:#f55c5c">
 			<p class="text-center" ><b>&copy;2022. Designed with <i class="fas fa-heart" style="color: red;"></i> by Subramanya K S.</b></p>
 		</footer>
