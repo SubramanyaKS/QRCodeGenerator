@@ -19,7 +19,6 @@ This project has three major parts :
 * .gitignore - Git ignore patterns are used to exclude certain files in your working directory from your Git history. They can be local, global, or shared with your team.
 * requirements.txt - a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project.
 
-#### Project tree
 ```
 📦 
 ├─ .gitignore
