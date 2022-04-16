@@ -40,6 +40,25 @@ Open the URL http://localhost:5000/ to access the application.
 ## Credits / References:
 * Github
 * Towardsdatascience
+* GeeksforGeeks
+* Project Tree Generator
 
 If you like this project fork this project and ⭐ this repository.
 Thank You have a good day.
+
+```
+```
+📦 
+├─ .gitignore
+├─ README.md
+├─ app.py
+├─ requirements.txt
+├─ static
+│  ├─ new_code.png
+│  ├─ qrcode.jpg
+│  └─ style.css
+└─ templates
+   ├─ bar.html
+   ├─ index.html
+   └─ result.html
+```
