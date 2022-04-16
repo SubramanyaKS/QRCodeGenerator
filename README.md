@@ -19,6 +19,23 @@ This project has three major parts :
 * .gitignore - Git ignore patterns are used to exclude certain files in your working directory from your Git history. They can be local, global, or shared with your team.
 * requirements.txt - a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project.
 
+#### Project tree
+```
+📦 
+├─ .gitignore
+├─ README.md
+├─ app.py
+├─ requirements.txt
+├─ static
+│  ├─ new_code.png
+│  ├─ qrcode.jpg
+│  └─ style.css
+└─ templates
+   ├─ bar.html
+   ├─ index.html
+   └─ result.html
+```
+
 ## How to install and run the Application.
 
 Clone this repository:
@@ -46,19 +63,3 @@ Open the URL http://localhost:5000/ to access the application.
 If you like this project fork this project and ⭐ this repository.
 Thank You have a good day.
 
-```
-```
-📦 
-├─ .gitignore
-├─ README.md
-├─ app.py
-├─ requirements.txt
-├─ static
-│  ├─ new_code.png
-│  ├─ qrcode.jpg
-│  └─ style.css
-└─ templates
-   ├─ bar.html
-   ├─ index.html
-   └─ result.html
-```
