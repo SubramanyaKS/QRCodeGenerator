@@ -41,11 +41,11 @@
 	padding-right: 0;
 }
 body{
-	background: linear-gradient(150deg, #07e9e9, #048096) !important;
-	overflow: hidden;
+	background: linear-gradient(150deg, #fa7720, #fc6005) !important;
+	
 }
 .card{
-	background: linear-gradient(150deg, #0648ff, #059cf3) !important;
+	background: linear-gradient(150deg, #ff4d06, hsla(7, 96%, 49%, 0.966)) !important;
 	/*background-color: #fa0808 !important;*/
 	opacity: 100%;
 	margin-bottom:10px;
