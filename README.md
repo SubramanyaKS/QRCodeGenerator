@@ -56,7 +56,7 @@ Open the URL http://localhost:5000/ to access the application.
 
 ## Demo
 
-<img src="" alt="demo"/>
+<img src="https://github.com/SubramanyaKS/QRCodeGenerator/blob/main/QRCode.gif" height="500" width="1000" alt="demo"/>
 
 
 ## Credits / References:
