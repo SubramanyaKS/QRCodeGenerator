@@ -54,6 +54,11 @@ python app.py
 Open the URL http://localhost:5000/ to access the application.
 
 
+## Demo
+
+<img src="" alt="demo"/>
+
+
 ## Credits / References:
 * Github
 * Towardsdatascience
